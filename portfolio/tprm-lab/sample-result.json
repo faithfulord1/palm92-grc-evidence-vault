@@ -1,0 +1,22 @@
+{
+  "supplier": "HarbourCloud Demo Ltd (fictional)",
+  "fictional": true,
+  "as_of": "2026-10-17",
+  "findings": [
+    {
+      "control": "recovery_test",
+      "reasons": [
+        "expired evidence"
+      ]
+    },
+    {
+      "control": "incident_plan",
+      "reasons": [
+        "not independently verified"
+      ]
+    }
+  ],
+  "triage": "gaps_require_review",
+  "decision": "pending_human_review",
+  "limitation": "Metadata checks only; no compliance certification or approval."
+}
