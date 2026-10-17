@@ -1,0 +1,9 @@
+{
+  "supplier": "HarbourCloud Demo Ltd (fictional)",
+  "scenario": "Proposed supplier for a business-critical customer support service. No real customer data.",
+  "evidence": {
+    "access_review": {"source": "E-01 fictional access review extract", "issued": "2026-07-01", "expires": "2027-07-01", "review_status": "verified"},
+    "recovery_test": {"source": "E-02 fictional recovery test summary", "issued": "2025-01-01", "expires": "2026-01-01", "review_status": "verified"},
+    "incident_plan": {"source": "E-03 supplier self-declaration only", "issued": "2026-09-01", "expires": "2027-09-01", "review_status": "unverified"}
+  }
+}
