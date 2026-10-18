@@ -114,6 +114,12 @@ This is a technical control implementation, not by itself proof of compliance wi
 - `terraform.tfvars.example`: safe test configuration example
 - `.gitignore`: excludes Terraform state, plans and generated ZIP files
 
+## TPRM evidence manifest prototype
+
+The repository includes a metadata-only manifest builder for third-party evidence. It records provenance, mapped control references, expiry and a pending human-review state without embedding the document. It is a local prototype only, not a supplier upload or production approval workflow. See [docs/TPRM_EVIDENCE_WORKFLOW.md](docs/TPRM_EVIDENCE_WORKFLOW.md) for the package-fit decision, data boundaries and next gates.
+
+Run its focused tests with `python -m pytest -q tests/test_tprm_evidence.py`. Use synthetic data only.
+
 ## Recommended next production upgrades
 
 For a real regulated environment, consider customer-managed KMS keys, cross-account backup/replication, Security Hub/CloudTrail/IAM evidence collectors, an SNS or incident-management alarm action, DynamoDB/OpenSearch evidence indexing, protected remote Terraform state, OIDC-based CI authentication and a formal evidence review/approval workflow.
