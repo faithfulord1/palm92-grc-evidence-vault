@@ -1,0 +1,48 @@
+[
+  {
+    "repository": "jobshield-ai",
+    "commit": "8b8ac96347365eb0337ad1056bff36d3e5709a6d",
+    "working_tree_dirty": false,
+    "tracked_files": 5,
+    "indicators": [],
+    "skipped_files": [],
+    "source_status": "NO_INDICATOR_FOUND",
+    "deployment_status": "UNKNOWN",
+    "limitations": "Tracked working-tree files only; skips symlinks, unreadable/binary files and content over 1 MB. Untracked files, fetched dependencies, images, hosting and third-party services are not inspected. No vulnerability or patch-status determination."
+  },
+  {
+    "repository": "palm92-governed-agent-mcp",
+    "commit": "fa62ff19782f86200c7657e96dd733e7fd8ba715",
+    "working_tree_dirty": false,
+    "tracked_files": 32,
+    "indicators": [],
+    "skipped_files": [
+      "demo/decision-room-video/first-five-minutes.mp4"
+    ],
+    "source_status": "NO_INDICATOR_FOUND",
+    "deployment_status": "UNKNOWN",
+    "limitations": "Tracked working-tree files only; skips symlinks, unreadable/binary files and content over 1 MB. Untracked files, fetched dependencies, images, hosting and third-party services are not inspected. No vulnerability or patch-status determination."
+  },
+  {
+    "repository": "palm92-repoguard",
+    "commit": "4d54c578c6bfd722fb89db18aa30f18d94af84ee",
+    "working_tree_dirty": true,
+    "tracked_files": 66,
+    "indicators": [],
+    "skipped_files": [],
+    "source_status": "NO_INDICATOR_FOUND",
+    "deployment_status": "UNKNOWN",
+    "limitations": "Tracked working-tree files only; skips symlinks, unreadable/binary files and content over 1 MB. Untracked files, fetched dependencies, images, hosting and third-party services are not inspected. No vulnerability or patch-status determination."
+  },
+  {
+    "repository": "palm92-verified-request",
+    "commit": "85168d349df747efdbca7c5c237abba884134244",
+    "working_tree_dirty": false,
+    "tracked_files": 7,
+    "indicators": [],
+    "skipped_files": [],
+    "source_status": "NO_INDICATOR_FOUND",
+    "deployment_status": "UNKNOWN",
+    "limitations": "Tracked working-tree files only; skips symlinks, unreadable/binary files and content over 1 MB. Untracked files, fetched dependencies, images, hosting and third-party services are not inspected. No vulnerability or patch-status determination."
+  }
+]
