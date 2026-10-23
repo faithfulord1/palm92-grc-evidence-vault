@@ -1,0 +1,42 @@
+{
+  "case": "PALM92-LAB-001",
+  "executed_at_utc": "2026-10-23T01:30:44.900597+00:00",
+  "scope": "Original offline Python/SQLite teaching target; synthetic records only; no network listeners or requests",
+  "source_sha256": "c40f33044705ec4e76d5aca8d46fea398009db5bf7669dd1823cb1432a9f1ded",
+  "finding": "CWE-89: string-concatenated SQL permits synthetic cross-record disclosure",
+  "remediation": "Bind the owner value using a parameterized query",
+  "before_records_returned": 3,
+  "after_records_returned": 0,
+  "checks": [
+    {
+      "test": "baseline only returns Alice record",
+      "passed": true
+    },
+    {
+      "test": "unsafe query exposes all three synthetic records",
+      "passed": true
+    },
+    {
+      "test": "fixed query rejects injection as unmatched literal",
+      "passed": true
+    },
+    {
+      "test": "fixed query preserves valid lookup",
+      "passed": true
+    },
+    {
+      "test": "fixed query supports legitimate apostrophe",
+      "passed": true
+    },
+    {
+      "test": "unknown owner returns no data",
+      "passed": true
+    },
+    {
+      "test": "empty owner returns no data",
+      "passed": true
+    }
+  ],
+  "passed": 7,
+  "limitations": "Not a PHP CVE reproduction, penetration test of Palm92 services, or production security certification. Owner authorization must be enforced separately in real systems."
+}
