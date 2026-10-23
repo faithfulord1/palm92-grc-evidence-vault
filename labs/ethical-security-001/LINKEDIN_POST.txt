@@ -1,0 +1,29 @@
+A security headline should lead to evidence.
+
+The PHP security coverage prompted a practical question for my Palm92 work: how do we move from hearing about a vulnerability to demonstrating a verified fix?
+
+With Codex assistance, Palm92 Ethical Security Lab 001 is now built and tested.
+
+In an isolated Python/SQLite exercise using three fictional records:
+
+• A deliberately unsafe SQL query exposed all three records.
+• A parameterized query returned none for the same injection input.
+• Seven checks passed, including normal lookups and a legitimate name containing an apostrophe.
+
+The code, execution evidence and limitations are published on GitHub.
+
+This is a local training exercise, separate from the PHP flaws in the news. It is not a test of anyone else's website or a security clearance for Palm92's deployed services.
+
+The workflow matters:
+Permission → Reproduce → Fix → Retest → Evidence → Human review
+
+That is the connection I am building between ethical hacking, engineering and GRC: a finding needs an owner, a response and evidence of closure.
+
+AI investigates. Humans decide.
+
+Explore the exercise:
+https://github.com/faithfulord1/palm92-grc-evidence-vault/tree/main/labs/ethical-security-001
+
+What evidence does your team require before closing a vulnerability?
+
+#CyberSecurity #EthicalHacking #GRC #ResponsibleAI #Palm92
